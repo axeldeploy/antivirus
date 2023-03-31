@@ -2,7 +2,6 @@
   "name": "umtlv/av",
   "description": "Axel antivirus",
   "type": "package",
-  "version": "dev-main",
   "autoload": {
     "psr-4": {
       "Axel\\Antivirus\\": "src/"
