@@ -1,0 +1,30 @@
+{
+  "name": "axelhub/antivirus",
+  "description": "Axel antivirus",
+  "type": "package",
+  "version": "dev-main",
+  "autoload": {
+    "psr-4": {
+      "Axel\\Antivirus\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Nurislan Umetaliev",
+      "email": "nurislan.umetaliev@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^8.1",
+    "laravel/framework": "^10.0",
+    "ext-sockets": "*"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Axel\\Antivirus\\Providers\\AntivirusServiceProvider"
+      ]
+    }
+  }
+}
