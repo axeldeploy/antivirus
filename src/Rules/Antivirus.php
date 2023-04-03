@@ -15,6 +15,6 @@ class Antivirus implements Rule
 
     public function message(): string
     {
-        return "The :attribute contains virus";
+        return "Malware detected.";
     }
 }
