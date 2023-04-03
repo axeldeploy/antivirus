@@ -1,6 +1,6 @@
 {
-  "name": "umtlv/av",
-  "description": "Axel antivirus",
+  "name": "axeldeploy/antivirus",
+  "description": "Axel Antivirus",
   "type": "package",
   "autoload": {
     "psr-4": {
