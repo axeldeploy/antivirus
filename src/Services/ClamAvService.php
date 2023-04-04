@@ -22,6 +22,10 @@ class ClamAvService
 
     public function infected(string $file): bool
     {
+        if (env("APP_ENV", 'production') === 'local') {
+            return rand(0, 1);
+        }
+        
         $out = $this->sendCommand('SCAN ' . $file);
         $out = \explode(':', $out);
         $stats = \end($out);
