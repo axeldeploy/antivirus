@@ -1,5 +1,5 @@
 {
-  "name": "umtlv/av",
+  "name": "axelhub/antivirus",
   "description": "Axel antivirus",
   "type": "package",
   "autoload": {
